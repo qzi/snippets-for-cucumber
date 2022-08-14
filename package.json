@@ -1,0 +1,22 @@
+{
+  "name": "snippet-cucumber",
+  "displayName": "Snippet for Cucumber",
+  "description": "Snippet for Cucumber",
+  "version": "0.0.2",
+  "publisher": "Leon Qiu",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png"
+}
