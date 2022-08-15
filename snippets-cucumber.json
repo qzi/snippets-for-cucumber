@@ -1,16 +1,16 @@
 {
   "Scenario": {
-    "prefix": "sgwt-ext",
+    "prefix": "sgwt-cucumber-ext",
     "body": [
       "Scenario: ${1:scenario Content}",
       "  Given ${2:context}",
       "  When ${3:event}",
-      "  Given ${4:feedback}"
+      "  Then ${4:feedback}"
     ],
     "description": "Given When Then"
   },
 
-  "Insert table": {
+  "Insert 2x2 table": {
     "prefix": "22-table-cucumber-ext",
     "body": [
       "| ${1:Column1}  | ${2:Column2}   | ",

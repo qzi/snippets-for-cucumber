@@ -2,14 +2,14 @@
   "name": "snippets-for-cucumber",
   "displayName": "Snippets for Cucumber",
   "description": "Snippets for Cucumber",
-  "version": "0.7.0",
-  "publisher": "Leon Qiu",
+  "version": "0.9.0",
+  "publisher": "agilelog-org",
   "repository": {
     "type": "git",
     "url": "https://github.com/qzi/snippets-for-cucumber.git"
   },
   "engines": {
-    "vscode": "^1.7.0"
+    "vscode": "^1.6.0"
   },
   "categories": [
     "Snippets"
@@ -23,6 +23,10 @@
       {
         "language": "feature",
         "path": "./snippets-cucumber.json"
+      },
+      {
+        "language": "java",
+        "path": "./snippets-java.json"
       }
     ]
   },
