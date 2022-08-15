@@ -1,11 +1,15 @@
 {
-  "name": "snippet-cucumber",
-  "displayName": "Snippet for Cucumber",
-  "description": "Snippet for Cucumber",
-  "version": "0.0.2",
+  "name": "snippets-for-cucumber",
+  "displayName": "Snippets for Cucumber",
+  "description": "Snippets for Cucumber",
+  "version": "0.7.0",
   "publisher": "Leon Qiu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qzi/snippets-for-cucumber.git"
+  },
   "engines": {
-    "vscode": "^1.28.0"
+    "vscode": "^1.7.0"
   },
   "categories": [
     "Snippets"
@@ -14,9 +18,13 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets.json"
+        "path": "./snippets-javascript.json"
+      },
+      {
+        "language": "feature",
+        "path": "./snippets-cucumber.json"
       }
     ]
   },
-  "icon": "images/icon.png"
+  "icon": "images/cucumber-ext-v0.2.png"
 }
