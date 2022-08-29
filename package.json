@@ -2,7 +2,7 @@
   "name": "snippets-for-cucumber",
   "displayName": "Snippets for Cucumber",
   "description": "Snippets for Gherkin/Cucumber/BDD",
-  "version": "0.9.4",
+  "version": "0.10.0",
   "publisher": "agilelog-org",
   "license": "Apache License 2.0",
   "repository": {
