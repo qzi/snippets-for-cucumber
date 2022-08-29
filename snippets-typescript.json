@@ -1,6 +1,6 @@
 {
   "Javascript snippets": {
-    "prefix": "gwt-es5-ext",
+    "prefix": "gwt-ts-ext",
     "body": [
       "${1|Given, When, Then, And, But|}(\"${2:I do something}\", function () {",
       "${3|return \"pending\";|}",
@@ -8,9 +8,8 @@
     ],
     "description": "Given When Then And But"
   },
-
   "ECMAScript snippets": {
-    "prefix": "gwt-es6-ext",
+    "prefix": "gwt-ts-lambda-ext",
     "body": [
       "${1|Given, When, Then, And, But|}(\"${2:I do something}\", () => {",
       "${3|return \"pending\";|}",
@@ -18,10 +17,12 @@
     ],
     "description": "Given When Then And But"
   },
-
   "Print to console": {
     "prefix": "cl-ext",
-    "body": ["console.log('$1');", "$2"],
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
     "description": "Log output to console"
   }
 }

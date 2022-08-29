@@ -2,11 +2,22 @@
   "Java cucumber snippets": {
     "prefix": "gwt-java-ext",
     "body": [
-      "@${1|Given, When, Then|}(\"^${2:I do something}$\")",
+      "@${1|Given, When, Then, And, But|}(\"^${2:I do something}$\")",
       "public void ${3:fucntion name}() throws Throwable {",
       "\t assertEquals($4, $5);",
       "}"
     ],
-    "description": "Given When Then"
+    "description": "Given When Then And But in Java"
+  },
+
+  "Java lambdas cucumber snippets": {
+    "prefix": "gwt-java-lambdas-ext",
+    "body": [
+      "${1|Given, When, Then, And, But|}(\"^${2:I do something}$\",",
+      "() -> {",
+      "\t throw new PendingException();",
+      "});"
+    ],
+    "description": "Given When Then And But in Java lambdas"
   }
 }
