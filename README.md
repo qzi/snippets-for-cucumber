@@ -24,7 +24,7 @@ Snippets for Cucumber rapid development to support BDD
 | gwt-java-ext          | Given When Then And But Steps               | java         |
 | gwt-java-lambdas-ext  | Given When Then And But Steps using lambdas | java         |
 | gwt-ts-ext            | Given When Then And But Steps               | TypeScript   |
-| gwt-ts-lambdas-ext    | Given When Then And But Steps using lambdas | TypeScript   |
+| gwt-ts-lambda-ext     | Given When Then And But Steps using lambdas | TypeScript   |
 
 ## References
 
